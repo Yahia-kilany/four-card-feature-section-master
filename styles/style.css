@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --D-blue: hsl(234, 12%, 34%);
+  --G-blue: hsl(229, 6%, 66%);
+  --L-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-size: 0.938rem;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--L-gray);
+}
+
+.content {
+  padding: 2em;
+}
+
+.description {
+  color: var(--G-blue);
+  font-weight: 200;
+  margin: 2em;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0; 
+  width: 100%;
+}
+.mission {
+  text-align: center;
+}
+.header {
+  white-space: nowrap;
+  text-align: center;
+  color: var(--D-blue);
+  margin: 0 1em;
+}
+.light {
+  font-weight: 200;
+}
+.title {
+  color: var(--D-blue);
+  font-weight: 400;
+}
+.card {
+  width: 25rem;
+  background-color: var(--L-gray);
+  border-top: 5px solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px -5px var(--cyan);
+  margin: 2em;
+  padding: 2em;
+}
+
+.upper-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.super {
+  border-color: var(--cyan);
+}
+.calc {
+  border-color: var(--blue);
+}
+.team {
+  border-color: var(--red);
+}
+.karma {
+  border-color: var(--orange);
+}
+.icon {
+  text-align: right;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .upper-flex {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 20rem;
+    padding: 1em;
+  }
+  
+}
