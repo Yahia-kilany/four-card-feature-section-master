@@ -34,9 +34,11 @@ body {
   text-align: center;
 }
 .header {
+  color: var(--D-blue);
   text-align: center;
 }
 .light {
+  margin-top: 4rem;
   font-weight: 200;
 }
 .title {
